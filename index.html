@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALI.DEV - Mobile Application Developer Portfolio</title>
+    <title>Muhammad Ali - Full Stack Developer Portfolio</title>
     
     <!-- Load Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
     
@@ -103,11 +103,12 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <!-- LOGO: ALI in white, .DEV in neon green --><a href="#" class="text-2xl font-bold hover:text-green-400 transition duration-300">
-                    <span class="text-gray-50">ALI</span><span class="text-neon-green">.DEV</span>
+                    <span class="text-gray-50">Muhammad</span><span class="text-neon-green">Ali</span>
                 </a>
                 <!-- Desktop Menu --><nav class="hidden md:flex space-x-8 text-lg font-medium">
                     <a href="#home" class="text-gray-300 hover:text-neon-green transition duration-300 font-semibold">Home</a>
-                    <a href="#about" class="text-gray-300 hover:text-neon-green transition duration-300 font-semibold">About</a> <!-- NEW LINK --><a href="#skills" class="text-gray-300 hover:text-neon-green transition duration-300 font-semibold">Skills</a>
+                    <a href="#about" class="text-gray-300 hover:text-neon-green transition duration-300 font-semibold">About</a> 
+                    <a href="#skills" class="text-gray-300 hover:text-neon-green transition duration-300 font-semibold">Skills</a>
                     <a href="#projects" class="text-gray-300 hover:text-neon-green transition duration-300 font-semibold">Projects</a>
                     <a href="#contact" class="text-gray-300 hover:text-neon-green transition duration-300 font-semibold">Contact</a>
                 </nav>
@@ -121,7 +122,8 @@
     <!-- Mobile Menu Dropdown (Initially Hidden) --><nav id="mobile-menu" class="hidden fixed top-20 left-0 w-full bg-dark-bg/95 backdrop-blur-md shadow-lg py-4 border-b border-gray-800 z-40 md:hidden">
         <div class="flex flex-col space-y-4 px-4 text-center">
             <a href="#home" onclick="toggleMenu()" class="block py-3 text-gray-300 hover:text-neon-green transition duration-300 text-xl font-semibold border-b border-gray-800">Home</a>
-            <a href="#about" onclick="toggleMenu()" class="block py-3 text-gray-300 hover:text-neon-green transition duration-300 text-xl font-semibold border-b border-gray-800">About</a> <!-- NEW LINK --><a href="#skills" onclick="toggleMenu()" class="block py-3 text-gray-300 hover:text-neon-green transition duration-300 text-xl font-semibold border-b border-gray-800">Skills</a>
+            <a href="#about" onclick="toggleMenu()" class="block py-3 text-gray-300 hover:text-neon-green transition duration-300 text-xl font-semibold border-b border-gray-800">About</a> 
+            <a href="#skills" onclick="toggleMenu()" class="block py-3 text-gray-300 hover:text-neon-green transition duration-300 text-xl font-semibold border-b border-gray-800">Skills</a>
             <a href="#projects" onclick="toggleMenu()" class="block py-3 text-gray-300 hover:text-neon-green transition duration-300 text-xl font-semibold border-b border-gray-800">Projects</a>
             <a href="#contact" onclick="toggleMenu()" class="block py-3 text-gray-300 hover:text-neon-green transition duration-300 text-xl font-semibold border-b border-gray-800">Contact</a>
         </div>
@@ -129,15 +131,18 @@
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
 
-        <!-- 1. Hero Section (Image removed, only text remains) --><section id="home" class="min-h-[70vh] flex flex-col items-center justify-center pt-10 text-center">
-            <!-- Text Content --><div class="space-y-7">
+        <!-- 1. Hero Section -->
+        <section id="home" class="min-h-[70vh] flex flex-col items-center justify-center pt-10 text-center">
+            <!-- Text Content -->
+            <div class="space-y-7">
                 <p class="text-xl text-neon-green font-medium tracking-widest uppercase">Hello, I'm Muhammad Ali</p>
                 <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-snug">
                     Full Stack <br class="hidden sm:block">
                     <span class="bg-clip-text text-transparent bg-gradient-to-r from-neon-green to-green-300">Developer</span>
                 </h1>
-                <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) --><p class="text-lg sm:text-xl text-gray-300 max-w-xl mx-auto pt-2">
-                    A Full Stack Developer passionate about building seamless,pixel-perfect experiences across web and mobile platforms.
+                <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) -->
+                <p class="text-lg sm:text-xl text-gray-300 max-w-xl mx-auto pt-2">
+                    A Full Stack Developer passionate about building seamless, pixel-perfect experiences across web and mobile platforms.
                 </p>
                 <a href="#contact" class="inline-block mt-10 px-10 py-4 text-lg font-bold text-dark-bg bg-neon-green rounded-lg shadow-xl shadow-neon-green/30 hover:bg-green-400 transition duration-300 transform hover:scale-[1.03]">
                     Start a Project
@@ -145,12 +150,14 @@
             </div>
         </section>
 
-        <!-- 2. About Section (New: Contains the image and text) --><section id="about" class="py-32 border-t border-gray-900">
+        <!-- 2. About Section -->
+        <section id="about" class="py-32 border-t border-gray-900">
             <h2 class="text-5xl font-extrabold text-center mb-16">
                 About <span class="text-neon-green">Me</span>
             </h2>
             <div class="max-w-4xl mx-auto space-y-12">
-                <!-- Centered Image (Moved from #home) --><div class="flex justify-center">
+                <!-- Centered Image -->
+                <div class="flex justify-center">
                     <div class="image-container">
                         <img
                             src="https://avatars.githubusercontent.com/u/228662060?s=400&u=02c80d3409ee587ecf21cd5fdc9fa77f8c051199&v=4"
@@ -160,7 +167,8 @@
                     </div>
                 </div>
                 
-                <!-- About Me Text --><div class="text-center md:text-left text-gray-300 space-y-6 px-4">
+                <!-- About Me Text -->
+                <div class="text-center md:text-left text-gray-300 space-y-6 px-4">
                     <h3 class="text-3xl font-bold text-neon-green text-center md:text-center">Vision & Mission</h3>
                     <p class="text-lg">
                         I am a dedicated Mobile Application Architect focused on building scalable, performant, and user-centric applications. My goal is to bridge the gap between complex backend systems and beautiful, intuitive mobile experiences. I thrive on solving technical challenges and constantly exploring new frameworks like Flutter and React Native to deliver maximum value.
@@ -173,15 +181,18 @@
         </section>
 
 
-        <!-- 3. Skills / Technical Expertise Section (Previously 2) --><section id="skills" class="py-32 border-t border-gray-900">
+        <!-- 3. Skills / Technical Expertise Section -->
+        <section id="skills" class="py-32 border-t border-gray-900">
             <h2 class="text-5xl font-extrabold text-center mb-6">
                 Core <span class="text-neon-green">Expertise</span>
             </h2>
-            <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) --><p class="text-lg sm:text-xl text-center text-gray-400 mb-16">Focused on the full lifecycle of mobile application development.</p>
+            <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) -->
+            <p class="text-lg sm:text-xl text-center text-gray-400 mb-16">Focused on the full lifecycle of mobile application development.</p>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
-                <!-- Skill Card 1: Mobile Frontend (Updated) --><div class="bg-card-bg p-8 rounded-xl shadow-lg border border-gray-800 card-hover-effect">
+                <!-- Skill Card 1: Frontend -->
+                <div class="bg-card-bg p-8 rounded-xl shadow-lg border border-gray-800 card-hover-effect">
                     <div class="text-5xl text-neon-green mb-5"><i class="fas fa-mobile-alt"></i></div>
                     <h3 class="text-2xl font-bold mb-3 text-gray-50">Frontend</h3>
                     <p class="text-gray-400">
@@ -189,17 +200,19 @@
                     </p>
                 </div>
 
-                <!-- Skill Card 2: Backend & API (Updated) --><div class="bg-card-bg p-8 rounded-xl shadow-lg border border-gray-800 card-hover-effect">
+                <!-- Skill Card 2: Backend & API -->
+                <div class="bg-card-bg p-8 rounded-xl shadow-lg border border-gray-800 card-hover-effect">
                     <div class="text-5xl text-neon-green mb-5"><i class="fas fa-server"></i></div>
-                    <h3 class="text-2xl font-bold mb-3 text-gray-50">Backend \& API Development</h3>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-50">Backend & API Development</h3>
                     <p class="text-gray-400">
                         Designing robust, scalable **RESTful APIs** using **Node.js (Express)** and **Python (Django/Flask)**. Implementing secure authentication (JWT) and microservices architecture.
                     </p>
                 </div>
                 
-                <!-- Skill Card 3: Database & Data Modeling (New) --><div class="bg-card-bg p-8 rounded-xl shadow-lg border border-gray-800 card-hover-effect">
+                <!-- Skill Card 3: Database & Data Modeling -->
+                <div class="bg-card-bg p-8 rounded-xl shadow-lg border border-gray-800 card-hover-effect">
                     <div class="text-5xl text-neon-green mb-5"><i class="fas fa-database"></i></div>
-                    <h3 class="text-2xl font-bold mb-3 text-gray-50">Database \& Real-time Data</h3>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-50">Database & Real-time Data</h3>
                     <p class="text-gray-400">
                         Proficient in both NoSQL (**MongoDB, Firebase Firestore**) and SQL (**PostgreSQL, MySQL**) solutions, specializing in efficient data modeling for mobile synchronization and real-time updates.
                     </p>
@@ -208,15 +221,18 @@
             </div>
         </section>
 
-        <!-- 4. Projects Section (Previously 3) --><section id="projects" class="py-32 border-t border-gray-900">
+        <!-- 4. Projects Section -->
+        <section id="projects" class="py-32 border-t border-gray-900">
             <h2 class="text-5xl font-extrabold text-center mb-6">
                 Showcased <span class="text-neon-green">Work</span>
             </h2>
-            <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) --><p class="text-lg sm:text-xl text-center text-gray-400 mb-16">A selection of high-impact mobile and full-stack applications.</p>
+            <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) -->
+            <p class="text-lg sm:text-xl text-center text-gray-400 mb-16">A selection of high-impact mobile and full-stack applications.</p>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
-                <!-- Project Card 1: The Daily Grind Coffee App (UPDATED) --><div class="bg-card-bg rounded-xl overflow-hidden shadow-2xl border border-gray-800 card-hover-effect">
+                <!-- Project Card 1: The Daily Grind Coffee App -->
+                <div class="bg-card-bg rounded-xl overflow-hidden shadow-2xl border border-gray-800 card-hover-effect">
                     <img 
                         src="https://sparkyneon.in/cdn/shop/files/CoffeeCupCoffeeBeansNeonSign-green.jpg?v=1748789118&width=1445" 
                         alt="Neon Sign of a Coffee Cup and Coffee Beans" 
@@ -229,7 +245,6 @@
                             The Daily Grind Coffee App is a complete, full-stack solution built to serve as a customer-facing menu system for a coffee shop.
                         </p>
                         <div class="flex space-x-4">
-                            <!-- Live Demo option removed as requested -->
                             <a href="https://github.com/AliKhan2055/MIDTERM" target="_blank" class="text-gray-300 hover:text-neon-green transition duration-300 text-sm font-medium">
                                 <i class="fab fa-github mr-2"></i>Source Code
                             </a>
@@ -237,7 +252,8 @@
                     </div>
                 </div>
 
-                <!-- Project Card 2: E-commerce App (Existing) --><div class="bg-card-bg rounded-xl overflow-hidden shadow-2xl border border-gray-800 card-hover-effect">
+                <!-- Project Card 2: E-commerce App -->
+                <div class="bg-card-bg rounded-xl overflow-hidden shadow-2xl border border-gray-800 card-hover-effect">
                     <img 
                         src="https://neonsignature.com/cdn/shop/files/WhatsAppImage2024-05-22at09.45.31_89c50b75.jpg?v=1716389018&width=1600" 
                         alt="Mobile phone displaying a neon art graphic" 
@@ -250,7 +266,6 @@
                             A focused mobile commerce application dedicated to showcasing and selling products from top shoe brands, including **Nike, Adidas, Puma, and Fila**.
                         </p>
                         <div class="flex space-x-4">
-                            <!-- Live Demo option removed as requested -->
                             <a href="https://github.com/AliKhan2055/ecommerce-app" target="_blank" class="text-gray-300 hover:text-neon-green transition duration-300 text-sm font-medium">
                                 <i class="fab fa-github mr-2"></i>Source Code
                             </a>
@@ -258,16 +273,38 @@
                     </div>
                 </div>
                 
-                <!-- The third slot is now left empty, resulting in a responsive two-column layout on medium screens and two cards side-by-side on large screens, which looks cleaner than a scattered three-column grid with only two items. -->
+                <!-- Project Card 3: Restaurant App (NEW PROJECT) -->
+                <div class="bg-card-bg rounded-xl overflow-hidden shadow-2xl border border-gray-800 card-hover-effect">
+                    <!-- Placeholder image URL is used here, you can replace the src="..." value with your custom image URL -->
+                    <img 
+                        src="https://media.istockphoto.com/id/1341849990/photo/roast-duck-breast-with-vegetables.jpg?s=612x612&w=0&k=20&c=zGwoIJ1uwgE8IY1y0VDwKZ8A3BBqnDAauYOYSFlNiBU=" 
+                        alt="Restaurant ordering application screenshot" 
+                        class="w-full h-48 object-cover border-b border-gray-800"
+                        onerror="this.onerror=null; this.src='https://placehold.co/600x400/22c55e/070707?text=Restaurant+App+Image';" 
+                    >
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-neon-green mb-2">Modern Restaurant Ordering App</h4>
+                        <p class="text-gray-400 mb-4 text-sm">
+                            FOODIE – Full-Stack Food-Ordering App. FOODIE is a complete, production-ready mobile food-ordering solution built as a university capstone project (CS375).
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/AliKhan2055/Restaurant-App" target="_blank" class="text-gray-300 hover:text-neon-green transition duration-300 text-sm font-medium">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
 
-        <!-- 5. Contact Section (Previously 4) --><section id="contact" class="py-32 border-t border-gray-900">
+        <!-- 5. Contact Section -->
+        <section id="contact" class="py-32 border-t border-gray-900">
             <h2 class="text-5xl font-extrabold text-center mb-6">
                 Ready to <span class="text-neon-green">Build?</span>
             </h2>
-            <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) --><p class="text-lg sm:text-xl text-center text-gray-400 mb-12">I'm available for new projects, consultations, or full-time opportunities.</p>
+            <!-- Adjusted paragraph size for better mobile readability (text-lg on mobile, sm:text-xl on desktop) -->
+            <p class="text-lg sm:text-xl text-center text-gray-400 mb-12">I'm available for new projects, consultations, or full-time opportunities.</p>
 
             <div class="text-center text-gray-400 text-lg">
                 <p class="mb-8">Drop me a line or send over your requirements.</p>
@@ -279,11 +316,14 @@
 
     </main>
 
-    <!-- Footer --><footer class="bg-dark-gray border-t border-gray-800 mt-12">
+    <!-- Footer -->
+    <footer class="bg-dark-gray border-t border-gray-800 mt-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row justify-between items-center text-gray-400">
-            <!-- FOOTER LOGO --><p>&copy; 2024 <span class="text-gray-50">Muhammad </span><span class="text-neon-green">Ali</span>. All rights reserved.</p>
+            <!-- FOOTER LOGO -->
+            <p>&copy; 2024 <span class="text-gray-50">Muhammad </span><span class="text-neon-green">Ali</span>. All rights reserved.</p>
             
-            <!-- Social Icons (UPDATED) --><div class="flex space-x-6 mt-4 md:mt-0">
+            <!-- Social Icons (UPDATED) -->
+            <div class="flex space-x-6 mt-4 md:mt-0">
                 <a href="https://github.com/AliKhan2055" target="_blank" class="text-2xl hover:text-neon-green transition duration-300" aria-label="GitHub Profile">
                     <i class="fab fa-github"></i>
                 </a>
@@ -297,7 +337,8 @@
         </div>
     </footer>
 
-    <!-- JavaScript for Mobile Menu Toggle --><script>
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
         /**
          * Toggles the visibility of the mobile navigation menu and updates the icon.
          */
